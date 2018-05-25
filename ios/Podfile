@@ -1,0 +1,25 @@
+
+# Uncomment this line to define a global platform for your project
+# platform :ios, "6.0"
+
+target "firebase_chat" do
+    pod 'Firebase/Core'
+    pod 'Firebase/Messaging'
+    pod 'GoogleToolboxForMac'
+    pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
+    pod 'RNShare', :path => '../node_modules/react-native-share'
+
+  end
+  
+  target "firebase_chatTests" do
+  
+  end
+  
+  target "firebase_chat-tvOS" do
+  
+  end
+  
+  target "firebase_chat-tvOSTests" do
+  
+  end
